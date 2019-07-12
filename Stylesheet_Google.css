@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /*Buen hábito de programador, le estas diciendo
+    que el body ocupe toda la página*/
+    margin: 0px;
+    width: 100%;
+    height: 100%
+}
+a{
+    /*text decoration es solo para quitar o dejar el subrayado
+    del link*/
+    text-decoration: none;
+    color: #5F6368;
+}
+.top-bar nav{
+float: right;
+margin-right: 1.5rem;
+margin-top: 1rem;
+}
+.top-bar nav img{
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+.btn-sesion{
+color: #ffffff;
+background-color: #0044ffd8;
+font-size: medium;
+font-weight: bold;
+border: 1px solid #0044ffe3;
+border-radius: 3px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.btn-sesion:hover{
+    color: #ffffff;
+    background-color: #0044ffd8;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid #0044ffe3;
+    border-radius: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 1px 1px 1px rgba(142, 140, 156, 0.9);
+    }
+.top-bar nav a{
+  color: rgba(0, 0, 0, 0.87);
+    }
+.buscador{
+    text-align: center;
+    padding: 209px;
+}
+.buscador input{
+    width: 50%;
+    /*borde redondo es la etiqueta de border-radius*/
+    border-radius: 20px;
+    border: 1px solid #D8D8D8D8;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.buscador input:hover{
+    width: 50%;
+    /*borde redondo es la etiqueta de border-radius*/
+    border-radius: 20px;
+    border: 1px solid #D8D8D8D8;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 5px rgba(142, 140, 156, 0.8);
+}
+.btn-google{
+    background-color: #F2F2F2;
+    color:grey;
+    border-radius: 4px;
+    border: 0.1px solid gray;
+}
+/*pseudo elemento, :hover (los : son para poner pseudo elementos o pseudo clases) significa hacer que cuando pases el
+cursor, se haga el efecto tipo como cambio de color, etc...lo que tu indiques*/
+.btn-google:hover{
+    background-color: #F2F2F2;
+    color:black;
+    border-radius: 4px;
+    border: 0.5px solid rgb(136, 136, 136);
+}
+.logo img{
+    float: center;
+    width: 270px;
+    height: auto;
+}
+footer{
+    bottom: 0;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 5rem;
+    /*Position: fixed es para que se fije la posición y no se mueva*/
+    position: fixed;
+}
+.footer-pais{
+    margin-top: 0.3rem;
+    margin-left: 1.5rem;
+}
+.footer-derecha{
+    float: right;
+    margin-right: 1.5rem;
+}
+.footer-izquierda{
+    margin-left: 1.5rem;
+    padding-top: 0.2rem;
+    margin-top: 0.2rem;
+}
+#idioma{
+    color: #1a0dab; 
+}
